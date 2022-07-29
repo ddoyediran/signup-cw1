@@ -72,12 +72,15 @@ input[type="submit"] {
   cursor: pointer;
   width: 150px;
   height: 3rem;
+  display: block; /* To put the button at the center of the page - display block*/
+  margin: 5px auto; /* To put the button at the center of the page then apply equal left and right margin */
 }
 
-.submit-input {
+/* To put the button at the center of the page */
+/* .submit-input {
   text-align: center;
   margin-top: 5px;
-}
+} */
 
 /* input[type="submit"] {
   display: flex;
